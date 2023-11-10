@@ -5,7 +5,7 @@ import logo from './logo.svg';
 
 function App() {
   const [message, setMessage] = useState('');
-  const [fetchStatus, setFetchStatus] = useState('Preparing to fetch data...');
+  const [fetchStatus, setFetchStatus] = useState('Preparing to fetch data.....');
   const [fullApiURL, setFullApiURL] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
